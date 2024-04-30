@@ -1,0 +1,70 @@
+.pokeCard{
+    background-color: rgb(56, 39, 39);
+    width: 250px;
+    border: 5px solid;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.pokeCard__back{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.pokeCard__img{
+    width: 70%;
+    z-index: 10;
+
+}
+.pokeCard__tipos{
+    display: flex;
+
+}
+
+.slot2::before{
+    content: "/";
+    margin: 0 5px;
+}
+
+.pokeCard hr{
+    width: 90%;
+    margin: 10px 0;
+}
+
+.pokeCard__estadisticas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+.pokeCard__estadisticas li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+/*------------------colores---------------------------------------*/
+.grass{
+    background-color: green;
+}
+.fire{
+    background-color: red;
+}
+.water{
+    background-color: dodgerblue;
+}
+.bug{
+    background-color: lightgreen;
+}
+.normal{
+    background-color: brown;
+}
